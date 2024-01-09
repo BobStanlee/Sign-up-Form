@@ -570,6 +570,14 @@ video {
   margin-bottom: 2rem;
 }
 
+.mb-10{
+  margin-bottom: 2.5rem;
+}
+
+.mb-12{
+  margin-bottom: 3rem;
+}
+
 .flex{
   display: flex;
 }
@@ -596,6 +604,18 @@ video {
 
 .gap-2{
   gap: 0.5rem;
+}
+
+.gap-4{
+  gap: 1rem;
+}
+
+.gap-6{
+  gap: 1.5rem;
+}
+
+.gap-7{
+  gap: 1.75rem;
 }
 
 .rounded{
@@ -630,6 +650,11 @@ video {
   padding: 1.25rem;
 }
 
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .pl-6{
   padding-left: 1.5rem;
 }
@@ -640,6 +665,10 @@ video {
 
 .font-logo{
   font-family: Comfortaa;
+}
+
+.font-create{
+  font-family: Poppins;
 }
 
 .text-4xl{
@@ -660,6 +689,26 @@ video {
 .text-sm{
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-xs\/loose{
+  font-size: 0.75rem;
+  line-height: 2;
+}
+
+.text-xs\/8{
+  font-size: 0.75rem;
+  line-height: 2rem;
+}
+
+.text-xs\/6{
+  font-size: 0.75rem;
+  line-height: 1.5rem;
 }
 
 .font-thin{
@@ -684,6 +733,10 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.underline{
+  text-decoration-line: underline;
 }
 
 .placeholder\:text-sm::-moz-placeholder{
