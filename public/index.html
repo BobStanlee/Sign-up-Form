@@ -6,23 +6,23 @@
   <link href="/output.css" rel="stylesheet">
   <title>Sign-Up</title>
 </head>
-<body class="font-body bg-gray-100 w-full sm:p-4">
-  <div class="w-full flex flex-col sm:h-lvh sm:rounded-2xl sm:shadow-lg overflow-hidden"><!-- Main Container -->
+<body class="font-body sm:bg-gray-200 w-full sm:p-4">
+  <div class="w-full flex flex-col sm:rounded-2xl sm:shadow-lg sm:overflow-hidden"><!-- Main Container -->
     <div class="w-full flex flex-col justify-center text-white  bg-green-300"><!-- Hero Section -->
         <h1 class="font-logo flex justify-center text-5xl mt-8 mb-4 sm:text-8xl sm:mt-10">musica</h1>
         <p class="font-thin flex justify-center">listen everywhere on your own.</p>
         <img src="./img/ear_piece.png" alt="" class="object-contain h-52 sm:h-56">
     </div>
 
-    <form action="" method="post" class="bg-gray-50"><!-- Form Content goes in here -->
-        <p>Back</p>
-        <fieldset>
-            <legend>create your account</legend>
-            <p>It is Free To Start Listening</p>
+    <form action="" method="post" class="bg-gray-100 p-5 flex flex-col text-gray-700"><!-- Form Content goes in here -->
+        <p class="mt-4 text-gray-500 text-sm mb-9">Back</p>
+        <fieldset class="flex flex-col">
+            <legend class="text-4xl mb-4 text-gray-900">create your account</legend>
+            <p class="text-sm mb-16">It is Free To Start Listening.</p>
 
-            <div>
-                <label for="name">What should We Call You?</label>
-                <input type="text" id="name" name="name" placeholder="Enter A Profile Name" required>
+            <div class="flex flex-col gap-2">
+                <label for="name" class="text-base">What should We Call You?</label>
+                <input type="text" id="name" name="name" placeholder="Enter A Profile Name" required class="h-12 pl-6 bg-gray-200">
             </div>
 
             <div>
